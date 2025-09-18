@@ -1,0 +1,70 @@
+/* ------------------------- */
+/* Tailwind directives first */
+/* ------------------------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------- */
+/* Universal reset / defaults */
+/* ------------------------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  color: inherit;
+  cursor: none;
+}
+
+/* HTML & body defaults */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Inter', sans-serif; /* or any font you want */
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  cursor: none;
+  color: #111827; /* Tailwind gray-900 */
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Anchor defaults */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Images default */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons default */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Inputs default */
+input, textarea, select {
+  font: inherit;
+  outline: none;
+  background: none;
+  border: none;
+}
